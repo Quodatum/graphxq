@@ -1,9 +1,6 @@
 # graphxq 
-<<<<<<< HEAD
+
 An interface to Graphviz for BaseX 9.5+
-=======
-An interface to Graphviz for BaseX 9.5.
->>>>>>> branch 'master' of https://github.com/Quodatum/graphxq
 
 ## Local Install
 
