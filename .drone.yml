@@ -1,0 +1,10 @@
+---
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: run
+  image: quodatum/basexhttp:BaseX951
+  commands:
+  - echo done drone

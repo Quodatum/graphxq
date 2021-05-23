@@ -1,0 +1,71 @@
+<div class="row">
+  
+	<div class="btn-group">
+		<button id="bnRefresh" class="btn btn-mini"
+		title="Resend SVG request" >
+			<i class="glyphicon glyphicon-refresh"></i>
+			Redraw
+		</button>
+	   <a id="infotip" data-original-title="Status from Ajax" 
+        class="btn btn-mini"  rel="popover" data-placement="bottom" data-content="nothing yet."
+               title="Ajax request status">
+                 <i class="glyphicon glyphicon-info-sign" title="Request status, click for more."></i>  
+  </a>
+		
+	</div>
+	
+    <div class="btn-group">
+		<button id="bnclear" class="btn btn-mini"
+            title="Set editor to default empty content" >
+			<i class="glyphicon glyphicon-remove"></i>
+			Clear
+		</button>
+	</div>
+	<!-- http://stackoverflow.com/questions/12101781/splitter-for-twitter-bootstrap -->
+	<div class="btn-group " data-toggle="buttons-radio" style="padding-left:10em">
+		<a rel="tooltip" title="Show only the editor" class="btn btn-mini btn-default"
+			data-action="lDom" data-placement="left">
+			<i class="glyphicon glyphicon-indent-left"></i>
+		</a>
+		<a rel="tooltip" title="Make both sides equal" class="btn btn-mini btn-default"
+			data-placement="left" data-action="equality">
+			<i class="glyphicon glyphicon-resize-horizontal"></i>
+		</a>
+		<a rel="tooltip" title="Show only the result" class="btn btn-mini btn-default"
+			data-placement="left" data-action="rDom">
+			<i class="glyphicon glyphicon-indent-right"></i>
+		</a>
+	</div>
+
+  <div class="pull-right">
+    <div class="btn-group ">
+       <button id="bnxml" class="btn btn-mini btn-default" data-toggle="button" title="Toggle SVG graphic and text">
+           
+            SVG<i class="glyphicon glyphicon-eye-close"></i>
+        </button>
+    <button id="resetButtonQwpYZa" class="btn btn-mini btn-default"  title="Zoom to fit">
+            <i class="glyphicon glyphicon-screenshot"></i>
+        </button>
+      <button id="zoominButton" class="btn btn-mini btn-default"  title="Zoom in (double-click)">
+            <i class="glyphicon glyphicon-plus-sign"></i>
+        </button>
+         <button id="zoomoutButton" class="btn btn-mini btn-default"  title="Zoom out (shift double-click)">
+            <i class="glyphicon glyphicon-minus-sign"></i>
+        </button>
+         <button id="axesButton" class="btn btn-mini btn-default"  title="Toggle axes">
+           <span class="glyphicon glyphicon-th-large"></span>
+        </button>
+        </div>
+     <div class="btn-group ">      
+    <button id="bnsvg" class="btn btn-mini btn-default" title="Show SVG standalone.">			
+			SVG<i class="glyphicon glyphicon-share"></i>
+		</button>
+		<button id="bndn" class="btn btn-mini btn-default" title="Download SVG file">		
+			download<i class="glyphicon glyphicon-download-alt"></i>
+		</button>
+   
+ 
+		
+    </div>
+    </div>
+</div>

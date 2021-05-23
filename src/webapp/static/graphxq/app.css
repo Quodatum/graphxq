@@ -1,0 +1,46 @@
+/* app.css */
+
+@media (max-width: 979px) {
+    body {
+      padding-top: 0;
+    }
+}
+.h100{
+  height:100%;
+}
+/* search bar icon */
+.navbar-search .search-query {
+    padding-left: 29px;
+}
+.popwidth {
+	width:44em;
+}
+.navbar-search .icon-search {
+    position: absolute;
+    top: 7px;
+    left: 11px;
+}
+.media {
+  margin-top:0px;
+}
+.navbar-search .search-query:focus, .navbar-search .search-query.focused {
+    padding-left: 30px;
+}
+
+/* http://dylemma.io/post/4 */
+.navbar-fixed-top {
+    margin-bottom: 4px;
+}
+
+.ace-container{
+ position: relative;
+}
+ .ace { 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    }
+ 
+ 
