@@ -1,14 +1,10 @@
-# drone
-pipeline:
- step1:
-  image: quodatum/basexhttp:BaseX951
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: greeting
+  image: alpine
   commands:
   - echo hello
-  - echo world 
-    - pwd
-    - ls
- step2:
-  image: quodatum/basexhttp:BaseX951
-  commands:
-    - pwd
-    - ls    
+  - echo world
